@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "riide_token_backend": {
+      "main": "src/riide_token_backend/main.mo",
+      "type": "motoko"
+    },
+    "riide_token_frontend": {
+      "dependencies": [
+        "riide_token_backend"
+      ],
+      "source": [
+        "src/riide_token_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "riide_token_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
