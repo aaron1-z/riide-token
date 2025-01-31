@@ -1,7 +1,19 @@
 {
   "canisters": {
+    "riide_token": {
+      "main": "src/riide_token_backend/riide_token.mo",
+      "type": "motoko"
+    },
+    "staking": {
+      "main": "src/staking/main.mo",
+      "type": "motoko"
+    },
+    "dao": {
+      "main": "src/dao/main.mo",
+      "type": "motoko"
+    },
     "riide_token_backend": {
-      "main": "src/riide_token_backend/main.mo",
+      "main": "src/riide_token_backend/riide_token.mo",
       "type": "motoko"
     },
     "riide_token_frontend": {
